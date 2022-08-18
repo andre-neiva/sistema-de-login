@@ -1,0 +1,79 @@
+body {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url(Anime_Playercard_Splash\ wide.png) no-repeat;
+    background-size: cover;
+}
+
+.form{
+    width: 550px;
+    background-color: rgba(171, 168, 218, 0.76);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form .login>input{
+    display: block;
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    height: 25px;
+    padding-left: 10px;
+}
+.form .conectar{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.form .paragrafo{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+
+.titulo{
+    margin-left: 15px;
+    font-weight: 800;
+    
+}
+
+.form{
+    width: 600px;
+    background-color: rgba(171, 168, 218, 0.76);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form .cadastro>input{
+    display: block;
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    height: 25px;
+    padding-left: 10px;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+.form .genero>input{
+    display: inline;
+}
+.form .genero{
+    margin-bottom: 20px;
+}
+.form .checar.news{
+    margin-bottom: 15px;
+}
+.form .cadastrar{
+    border-radius: 3px;
+    background-color: rgb(213, 213, 231);
+}
+a{
+    display: block;
+    margin-top: 10px;
+}
+

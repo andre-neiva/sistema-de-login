@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="global.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form action="index.html" method="get" class="form">
+            <header>
+                <h1 class="titulo">Cadastro</h1>
+            </header>
+
+            <div class="cadastro">
+                <input type="text" name="nome" placeholder="Nome" required>
+                <input type="text" name="sobrenome" placeholder="Sobrenome" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <input type="password" name="senha" placeholder="Senha" required>
+                <input type="password" name="conf_senha" placeholder="Confirme sua senha" required>           
+            </div>
+            
+            <h2>Genero</h2>
+
+            <div class="genero">
+                <div>
+                    <input type="radio" id="masc" name="genero" value="masculino">
+                    <label for="masc">Masculino</label>
+                </div>
+                <div>
+                    <input type="radio" name="genero" id="fem" value="feminino">
+                    <label for="fem">Feminino</label>
+                </div>
+                <div>
+                    <input type="radio" name="genero" id="outro" value="">
+                    <label for="outro">Outro</label>
+                </div>
+            </div>
+
+            <div class="checar">
+                <input type="checkbox" name="termo" id="termo" required>
+                <label for="termo">Li e aceito os termos de uso.</label>
+            </div>
+
+            <div class="checar news">
+                <input type="checkbox" name="novidades" id="news">
+                <label for="news">Desejo receber novidades.</label>
+            </div>
+
+            <button class="cadastrar">Cadastrar</button>
+            <a href="index.html">Voltar para o login</a>
+
+        </form>
+    </main>
+</body>
+</html>
