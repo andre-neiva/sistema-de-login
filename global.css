@@ -59,21 +59,28 @@ body {
 h2{
     margin-bottom: 10px;
 }
+
 .form .genero>input{
     display: inline;
 }
+
 .form .genero{
     margin-bottom: 20px;
 }
+
 .form .checar.news{
     margin-bottom: 15px;
 }
+
 .form .cadastrar{
     border-radius: 3px;
     background-color: rgb(213, 213, 231);
 }
+
 a{
     display: block;
     margin-top: 10px;
 }
+
+
 
